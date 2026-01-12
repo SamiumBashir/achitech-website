@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.dark-02{
+    color: #424242;
+}
+
+.dark-03{
+    color: #727272;
+}
+
+/* header styles */
+/* navbar styles */
