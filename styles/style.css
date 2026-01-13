@@ -17,5 +17,78 @@
     color: #727272;
 }
 
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1)
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 24px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /* header styles */
 /* navbar styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.banner-image{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar, ul{
+        flex-direction: column;
+        gap: 1.2rem;
+        text-align: center;
+    }
+    
+}
