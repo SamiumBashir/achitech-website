@@ -42,6 +42,11 @@ main{
     margin: 0 auto;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
 /* header styles */
 header{
     padding: 20px 0;
@@ -114,11 +119,6 @@ header{
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
-}
-
-.section-title{
-    font-size: 2.8rem;
-    font-weight: 900;
 }
 
 #our{
