@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.dark-01{
+    color: #131313;
+}
+
 .dark-02{
     color: #424242;
 }
@@ -110,6 +114,19 @@ header{
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
+}
+
+span{
+    font-size: 3rem;
+}
+
+#our{
+    font-weight: 900;
+}
+
+#features{
+    font-weight: 700;
+    color: #FF900E;
 }
 
 /* responsive styles */
