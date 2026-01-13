@@ -116,8 +116,9 @@ header{
     gap: 1.5rem;
 }
 
-span{
-    font-size: 3rem;
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 900;
 }
 
 #our{
@@ -127,6 +128,10 @@ span{
 #features{
     font-weight: 700;
     color: #FF900E;
+}
+
+.feature-description{
+    line-height: 26px;
 }
 
 /* responsive styles */
@@ -145,10 +150,6 @@ span{
     .our-features{
         align-items: center;
         padding: 0 10px;
-    }
-
-    span{
-        font-size: 2.5rem;
     }
     
 }
