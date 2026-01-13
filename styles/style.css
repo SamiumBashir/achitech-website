@@ -81,6 +81,10 @@ header{
     margin: 0 auto;
 }
 
+.section-description{
+    line-height: 26px;
+}
+
 /* banner styles */
 .banner-content{
     max-width: 850px;
@@ -104,6 +108,7 @@ header{
 
 /* teams and features styles */
 .teams{
+    margin-bottom: 80px;
     align-items: center;
     gap: 4.5rem;
 }
@@ -130,8 +135,13 @@ header{
     color: #FF900E;
 }
 
-.feature-description{
-    line-height: 26px;
+/* some-fact style */
+
+.some-facts{
+    .fact-container{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* responsive styles */
