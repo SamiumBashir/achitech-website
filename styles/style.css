@@ -132,10 +132,33 @@ span{
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
-    .navbar, ul{
+    .navbar, ul, .teams{
         flex-direction: column;
         gap: 1.2rem;
         text-align: center;
     }
+
+    .team-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-features{
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    span{
+        font-size: 2.5rem;
+    }
     
+}
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+
+    .our-features{
+        margin: 0 auto;
+    }
 }
