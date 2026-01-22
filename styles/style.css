@@ -13,6 +13,11 @@
     color: #131313;
 }
 
+main{
+    margin: 95%;
+    text-align: center;
+}
+
 .dark-02{
     color: #424242;
 }
@@ -140,11 +145,11 @@ header{
 
 /* some-fact style */
 
-
 .fact-container{
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7.75rem
+    
 }
 
 .fact{
@@ -172,6 +177,10 @@ header{
     .our-features{
         align-items: center;
         padding: 0 10px;
+    }
+
+    .fact-container{
+        flex-direction: column;
     }
     
 }
