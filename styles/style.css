@@ -145,11 +145,17 @@ header{
 
 /* some-fact style */
 
+.some-facts{
+    max-width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .fact-container{
     flex-wrap: wrap;
     align-items: center;
     gap: 7.75rem
-    
+
 }
 
 .fact{
@@ -188,6 +194,10 @@ header{
 @media screen and (min-width: 577px) and (max-width:992px) {
     .teams{
         flex-direction: column;
+    }
+
+    .team-image-container{
+        grid-template-columns: repeat(1,1fr);
     }
 
     .our-features{
