@@ -148,6 +148,7 @@ header{
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
+        gap: 2.5rem;
 }
 
 .fact{
