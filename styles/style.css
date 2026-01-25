@@ -151,7 +151,8 @@ header{
 }
 
 .fact-box{
-    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     justify-content: space-around;
 }
 
@@ -189,6 +190,17 @@ header{
         align-items: center;
         padding: 0 10px;
     }
+
+    .fact-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .some-facts{
+        width: 95%;
+        text-align: center;
+    }
     
 }
 
@@ -197,11 +209,22 @@ header{
         flex-direction: column;
     }
 
+    .team-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .our-features{
         margin: 0 auto;
     }
 
-    .some-facts{
-        
+    .fact-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
     }
+
+    .some-facts{
+        width: 95%;
+    }
+
 }
