@@ -140,6 +140,12 @@ header{
 
 /* some-fact style */
 
+.fact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* responsive styles */
 
