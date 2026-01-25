@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
 }
 
 /* shared styles */
@@ -31,7 +32,6 @@
 
 .btn-primary{
     background-color: #FF900E;
-    
     color: #FFFFFF;
     border: none;
     padding: 20px 24px;
@@ -48,7 +48,7 @@ main{
 
 .section-title{
     font-size: 2.8rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* header styles */
@@ -140,11 +140,36 @@ header{
 
 /* some-fact style */
 
-.fact-card{
+.fact-title{
+    max-width: 540px;
+    margin-bottom: 6.25rem;
+}
+
+.fact-title p{
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.fact-box{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.fact-card{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 0.5rem;
+    padding: 40px;
+}
+
+.fact-card h4{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.fact-card p{
+    font-size: 1.75rem;
+    font-weight: 600;
 }
 
 /* responsive styles */
