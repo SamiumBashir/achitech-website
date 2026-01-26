@@ -199,7 +199,7 @@ header{
 
     .some-facts{
         width: 95%;
-        text-align: center;
+        margin: 0 auto;
     }
     
 }
@@ -225,6 +225,7 @@ header{
 
     .some-facts{
         width: 95%;
+        margin: 0 auto;
     }
 
 }
