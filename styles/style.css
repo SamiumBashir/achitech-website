@@ -210,6 +210,7 @@ footer{
 .footer-bg{
     background-color: #FFF4E7;
     border-radius: 0.5rem;
+    margin-top: 1.25rem;
 }
 .footer-bg p{
     text-align: center;
