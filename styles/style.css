@@ -144,6 +144,41 @@ header{
     font-weight: 700;
 }
 
+/* love & enjoy feature */
+
+.feature-enjoy{
+    gap: 3.5rem;
+}
+
+.feature-title{
+    margin-bottom: 1.75rem;
+}
+
+.feature-title h3{
+    border-left: 4px solid #FF900E;
+    padding-left: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 30px 42px 30px 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.feature-card h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feature-card p{
+    font-size: 1.25rem;
+    line-height: 26px;
+}
+
 /* some-fact style */
 
 .fact-title{
