@@ -150,6 +150,10 @@ header{
     gap: 3.5rem;
 }
 
+.feature-contain{
+    margin: 2.5rem 0;
+}
+
 .feature-title{
     margin-bottom: 1.75rem;
 }
@@ -179,6 +183,35 @@ header{
     line-height: 26px;
 }
 
+.feature-image{
+    position: relative;
+}
+
+.experience{
+    position: absolute;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 3rem 3.75rem;
+    bottom: -50px;
+    left: -100px;
+}
+
+.experience p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+
+
+.experience span{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 70px;
+}
 /* some-fact style */
 
 .fact-title{
